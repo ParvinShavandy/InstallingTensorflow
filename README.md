@@ -1,6 +1,6 @@
 ## Installing CUDA 10.0 and cuDNN 7.6.0.64 along with the GPU version of tensorflow 1.12
 
-his will show you how to install tensorflow with NVIDIA's Cuda 10.0 GPU environment on Ubuntu 18.04. It will install all > required packages and then compile Tensorflow from source. 
+This will show you how to install tensorflow with NVIDIA's Cuda 10.0 GPU environment on Ubuntu 18.04. It will install all > required packages and then compile Tensorflow from source. 
 
 These steps also work with a completely fresh Ubuntu 18.04 install.
 
