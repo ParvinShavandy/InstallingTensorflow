@@ -100,7 +100,7 @@ cd tensorflow
 git checkout r1.12
 ./configure
 </pre>
-Don't forget to type Y for for Cuda, Cuda version 10.0 and CuDNN version 7.4.1 and CuDNN library location /usr/lib. For all others you can leave the default values.
+Don't forget to type Y for for Cuda, Cuda version 10.0 and CuDNN version 7.6.0.64 and CuDNN library location /usr/lib. For all others you can leave the default values.
 <pre>
 bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
 </pre>
