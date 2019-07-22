@@ -71,7 +71,7 @@ Select cuDNN for CUDA 10.0 -> Download latest cuDNN Runtime Library, cuDNN Devel
 And Install
 
 <pre>sudo dpkg -i libcudnn7_7.6.0.64-1+cuda10.0_amd64.deb
-sudo dpkg -i libcudnn7-dev_7.6.0.64-1+cuda10.0_amd64.deb.deb
+sudo dpkg -i libcudnn7-dev_7.6.0.64-1+cuda10.0_amd64.deb
 sudo dpkg -i libcudnn7-doc_7.6.0.64-1+cuda10.0_amd64.deb</pre>
 
 ###  Building Tensorflow from source
