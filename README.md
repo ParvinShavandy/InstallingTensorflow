@@ -82,7 +82,7 @@ To build Tensorflow you will first need Bazel. The easiest way to install, is to
 sudo apt --yes install curl
 wget https://github.com/bazelbuild/bazel/releases/download/0.18.0/bazel_0.18.0-linux-x86_64.deb
 sudo apt-get -y --no-install-recommends install \g++    pkg-config    python    unzip    zip    zlib1g-dev
-sudo dpkg -i bazel_0.18.0_amd64.deb
+bazel_0.18.0-linux-x86_64.deb
 </pre>
 <pre>
 sudo apt install python-dev python-pip
