@@ -80,7 +80,7 @@ sudo dpkg -i libcudnn7-doc_7.6.0.64-1+cuda10.0_amd64.deb</pre>
 To build Tensorflow you will first need Bazel. The easiest way to install, is to add the Bazel repo and install the package.
 <pre>
 sudo apt --yes install curl
-curl -O http://storage.googleapis.com/bazel-apt/pool/jdk1.8/b/bazel/bazel_0.18.0_amd64.deb
+wget https://github.com/bazelbuild/bazel/releases/download/0.18.0/bazel_0.18.0-linux-x86_64.deb
 sudo apt-get -y --no-install-recommends install \g++    pkg-config    python    unzip    zip    zlib1g-dev
 sudo dpkg -i bazel_0.18.0_amd64.deb
 </pre>
